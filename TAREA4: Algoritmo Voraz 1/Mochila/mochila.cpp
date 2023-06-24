@@ -64,7 +64,7 @@ float mochila(float capacidad, vector<Objeto>& objetos,bool (*comparador)(Objeto
 }
 
 int main() {
-  cout<<"\nSolo objetos enteros\n***EJEMPLO 1***\n";
+  cout<<"\n***EJEMPLO 1***\n";
   int capacidadTotal = 10;
   vector<Objeto> objetos = {
     {10, 10},
@@ -96,7 +96,7 @@ int main() {
   float beneficio3 = mochila(capacidadTotal2, objetos2, compararPorMejorProporcion);
   cout << "El beneficio total por mejor proporcion es: " << beneficio3 << endl;
 
-  cout<<"\nAceptando objetos partidos\n***EJEMPLO 3***\n";
+  cout<<"\n***EJEMPLO 3***\n";
   int capacidadTotal3 = 20;
   vector<Objeto> objetos3 = {
     {18, 25},
