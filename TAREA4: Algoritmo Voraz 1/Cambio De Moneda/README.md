@@ -6,5 +6,5 @@
 
 ![Ejemplo](Ejemplo2.png)
 
-![ejecucion](ejecucion.png)
+![Ejecucion](Ejecucion.png)
 
