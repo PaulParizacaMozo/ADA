@@ -1,4 +1,4 @@
-# Quick Sort 
+# Algoritmo Quick Sort 
 
 ## Ejemplos
 Ejemplo 1:
