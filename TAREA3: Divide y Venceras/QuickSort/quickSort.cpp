@@ -44,7 +44,7 @@ void quickSort(vector<T>& arreglo) {
 
 
 int main() {
-    vector<int> arreglo1 = {7, 2, 1, 6, 8, 5, 3, 4};
+    vector<int> arreglo1 = {4, 7, 3, 2, 10 ,25 ,9 ,5};
     cout << "\nEjemplo 1:\nArreglo Inicial: ";
     printArreglo(arreglo1);
 
@@ -53,7 +53,7 @@ int main() {
     cout << "Arreglo Ordenado: ";
     printArreglo(arreglo1);
 
-    vector<float> arreglo2 = {4.5, 2.1, 7.8, 1.3, 3.9};
+    vector<float> arreglo2 = {4.9, 3.1, 8.7, 2.3, 3.5};
     cout << "\nEjemplo 2:\nArreglo Inicial: ";
     printArreglo(arreglo2);
 
