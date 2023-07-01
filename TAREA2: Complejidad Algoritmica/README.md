@@ -2,44 +2,44 @@
 
 ![Ejecucion](Ejecucion.png)
 
-## Ejemplo 1
+## Captura 1
 
-![Ejemplo](Ejemplo1.png)
+![Captura](Captura1.png)
 
-![Ejemplo](Ejemplo11.png)
+![Captura](Captura11.png)
 
-## Ejemplo 2
+## Captura 2
 
-![Ejemplo](Ejemplo2.png)
+![Captura](Captura2.png)
 
-![Ejemplo](Ejemplo12.png)
+![Captura](Captura12.png)
 
-## Ejemplo 3
+## Captura 3
 
-![Ejemplo](Ejemplo3.png)
+![Captura](Captura3.png)
 
-![Ejemplo](Ejemplo13.png)
+![Captura](Captura13.png)
 
-## Ejemplo 4
+## Captura 4
 
-![Ejemplo](Ejemplo4.png)
+![Captura](Captura4.png)
 
-![Ejemplo](Ejemplo14.png)
+![Captura](Captura14.png)
 
-## Ejemplo 5
+## Captura 5
 
-![Ejemplo](Ejemplo5.png)
+![Captura](Captura5.png)
 
-![Ejemplo](Ejemplo15.png)
+![Captura](Captura15.png)
 
-## Ejemplo 6
+## Captura 6
 
-![Ejemplo](Ejemplo6.png)
+![Captura](Captura6.png)
 
-![Ejemplo](Ejemplo16.png)
+![Captura](Captura16.png)
 
-## Ejemplo 7
+## Captura 7
 
-![Ejemplo](Ejemplo7.png)
+![Captura](Captura7.png)
 
-![Ejemplo](Ejemplo17.png)
+![Captura](Captura17.png)
