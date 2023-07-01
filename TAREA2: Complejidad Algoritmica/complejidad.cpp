@@ -164,7 +164,7 @@ int main(){
   FormulaEjer2(123);
   //Ejercicio3
   cout<<"\nEjercicio 3:\n";
-  Ejer3("hola11","hola");
+  Ejer3("hola","amigo");
   FormulaEjer3("hola","amigo");
   //Ejercicio4
   cout<<"\nEjercicio 4:\n";
