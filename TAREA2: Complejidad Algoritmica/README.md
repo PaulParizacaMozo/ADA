@@ -4,42 +4,42 @@
 
 ## Captura 1
 
-![Captura](Captura1.png)
+![Captura1](Captura1.png)
 
-![Captura](Captura11.png)
+![Captura2](Captura11.png)
 
 ## Captura 2
 
-![Captura](Captura2.png)
+![Captura3](Captura2.png)
 
-![Captura](Captura12.png)
+![Captura4](Captura12.png)
 
 ## Captura 3
 
-![Captura](Captura3.png)
+![Captura5](Captura3.png)
 
-![Captura](Captura13.png)
+![Captura6](Captura13.png)
 
 ## Captura 4
 
-![Captura](Captura4.png)
+![Captura7](Captura4.png)
 
-![Captura](Captura14.png)
+![Captura8](Captura14.png)
 
 ## Captura 5
 
-![Captura](Captura5.png)
+![Captura9](Captura5.png)
 
-![Captura](Captura15.png)
+![Captura10](Captura15.png)
 
 ## Captura 6
 
-![Captura](Captura6.png)
+![Captura11](Captura6.png)
 
-![Captura](Captura16.png)
+![Captura12](Captura16.png)
 
 ## Captura 7
 
-![Captura](Captura7.png)
+![Captura13](Captura7.png)
 
-![Captura](Captura17.png)
+![Captura14](Captura17.png)
