@@ -3,13 +3,6 @@
 #include <climits>
 using namespace std;
 
-struct Arista {
-    int origen;
-    int destino;
-    int peso;
-    Arista(int o, int d, int p) : origen(o), destino(d), peso(p) {}
-};
-
 class Grafo{
     public:
         int nNodos;
@@ -73,11 +66,11 @@ int main(int argc, char *argv[])
     nAristas = 10;
     Grafo graph(nNodos);
 
-    //cout << "Ingrese las aristas en el formato 'nodoA nodoB peso':\n";
+    //cout << "Ingrese las aristas (Nodo1 Nodo2 Peso)':\n";
     //for (int i = 0; i < nAristas; i++) {
-    //    int nodeA, nodeB, weight;
-    //    cin >> nodeA >> nodeB >> weight;
-    //    graph.AñadirArista(nodeA, nodeB, weight);
+    //    int Nodo1, Nodo2, Peso;
+    //    cin >> Nodo1 >> Nodo2 >> Peso;
+    //    graph.AñadirArista(Nodo1, Nodo2, Peso);
     //}
 
     graph.AñadirArista(1,2,10);
