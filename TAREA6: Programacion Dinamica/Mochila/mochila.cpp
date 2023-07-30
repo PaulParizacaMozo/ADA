@@ -13,11 +13,11 @@ int mochila(int capacidad, const vector<Objeto>& objetos, int n) {
     vector<vector<int>> dp(n + 1, vector<int>(capacidad + 1, 0));
 
     for (int i = 1; i <= n; ++i) {
-        for (int w = 1; w <= capacidad; ++w) {
-            if (objetos[i - 1].peso <= w) {
-                dp[i][w] = max(objetos[i - 1].beneficio + dp[i - 1][w - objetos[i - 1].peso], dp[i - 1][w]);
+        for (int j = 1; j <= capacidad; ++j) {
+            if (objetos[i - 1].peso <= j) {
+                dp[i][j] = max(objetos[i - 1].beneficio + dp[i - 1][j - objetos[i - 1].peso], dp[i - 1][j]);
             } else {
-                dp[i][w] = dp[i - 1][w];
+                dp[i][j] = dp[i - 1][j];
             }
         }
     }
@@ -26,17 +26,31 @@ int mochila(int capacidad, const vector<Objeto>& objetos, int n) {
 }
 
 int main() {
-    int capacidad = 10; // Capacidad de la mochila
-    vector<Objeto> objetos = {
-      {10, 10},
-      {3, 9},
-      {3, 9},
-      {4, 9}
+    //Ejemplo1
+    cout<<"EJEMPLO 1\n";
+    int capacidad1 = 7; // Capacidad de la mochila
+    vector<Objeto> objetos1 = {
+      {1, 2},
+      {2, 3},
+      {3, 4},
+      {4, 5}
     };
-    int n = objetos.size(); // Número de objetos
+    int n1 = objetos1.size(); // Número de objetos
 
-    int max_beneficio = mochila(capacidad, objetos, n);
-    cout << "El beneficio total es: " << max_beneficio << endl;
+    int max_beneficio1 = mochila(capacidad1, objetos1, n1);
+    cout << "El beneficio total es: " << max_beneficio1 << endl;
+
+    //Ejemplo2
+    cout<<"\nEJEMPLO 2\n";
+    int capacidad2 = 100; // Capacidad de la mochila
+    vector<Objeto> objetos2 = {
+      {1, 2},
+      {100, 190}
+    };
+    int n2 = objetos1.size(); // Número de objetos
+
+    int max_beneficio2 = mochila(capacidad2, objetos2, n2);
+    cout << "El beneficio total es: " << max_beneficio2 << endl;
 
     return 0;
 }
