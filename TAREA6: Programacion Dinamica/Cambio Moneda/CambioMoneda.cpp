@@ -4,46 +4,31 @@
 
 using namespace std;
 
-int minCoins(vector<int>& denominaciones, int X) {
-    int n = denominaciones.size();
+int minMonedas(vector<int>& monedas, int P) {
+    int n = monedas.size();
 
-    // Crear una tabla para almacenar los resultados de subproblemas
-    vector<int> dp(X + 1, INT_MAX);
-
-    // El número mínimo de monedas para representar 0 es 0
+    vector<int> dp(P + 1, INT_MAX);// Tabla 
     dp[0] = 0;
-
-    // Calcular el número mínimo de monedas para cada valor desde 1 hasta X
-    for (int i = 1; i <= X; i++) {
-        // Considerar todas las denominaciones disponibles
+    for (int i = 1; i <= P; i++) {
         for (int j = 0; j < n; j++) {
-            // Si la denominación actual es menor o igual al valor actual (i),
-            // entonces podemos usar esa denominación para reducir el problema
-            if (denominaciones[j] <= i) {
-                // Calcular el número de monedas necesarias para el valor (i)
-                // utilizando la denominación actual
-                int subproblema = dp[i - denominaciones[j]];
-
-                // Actualizar el resultado solo si el subproblema tiene una solución
-                // válida y si el resultado actual es mejor que la solución anterior
+            if (monedas[j] <= i) {
+                int subproblema = dp[i - monedas[j]];
                 if (subproblema != INT_MAX && subproblema + 1 < dp[i]) {
                     dp[i] = subproblema + 1;
                 }
             }
         }
     }
-
-    // La solución para el valor X está en dp[X]
-    return dp[X];
+    return dp[P];
 }
 
 int main() {
-    vector<int> denominaciones = {1, 5, 10, 25};
-    int X = 30;
-
-    int minMonedas = minCoins(denominaciones, X);
-
-    cout << "Cantidad mínima de monedas necesarias para representar " << X << " centavos: " << minMonedas << endl;
+    //Ejemplo1
+    cout<<"Ejemplo 1\n";
+    vector<int> monedas = {1,4,6};
+    int P = 8;
+    int solucion = minMonedas(monedas, P);
+    cout<<"P = "<<P<<"\n-> Cantidad mínima de monedas: "<<solucion<<endl;
 
     return 0;
 }
